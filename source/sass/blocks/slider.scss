@@ -1,0 +1,140 @@
+.slider {
+  width: 280px;
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.slider__img {
+	object-fit: cover;
+}
+
+.slider__wrapper {
+  height: 256px;
+  position: relative;
+}
+
+.slider__before {
+  background-color: $background-color;
+  position: absolute;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	z-index: 2;
+	width: 50%;
+	height: 256px;
+}
+
+// .slider__button {
+//   margin: 0;
+//   padding: 0;
+//   width: 4px;
+//   height: 256px;
+//   border: none;
+//   border-radius: 2px;
+//   background-color: #666666;
+//   position: absolute;
+//   z-index: 10;
+//   left: 50%;
+// 	top: 0;
+// }
+
+.slider__button {
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #666666;
+  border-radius: 100%;
+  background-color: #ffffff;
+  color: #666666;
+  position: absolute;
+  z-index: 10;
+  left: 43%;
+	top: 42%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.slider__button::before {
+  content: "";
+  width: 4px;
+  height: 108px;
+  background-color: #666666;
+  border-radius: 2px;
+  position: absolute;
+  right: 16px;
+	top: -108px;
+}
+
+.slider__button::after {
+  content: "";
+  width: 4px;
+  height: 108px;
+  background-color: #666666;
+  border-radius: 2px;
+  position: absolute;
+  right: 16px;
+	top: 37px;
+}
+
+.slider__button:hover {
+  border-color: #68B738;
+  color: #68B738;
+}
+
+.slider__button:hover::before,
+.slider__button:hover::after {
+  background-color: #68B738;
+}
+
+.slider__button:active {
+  border-color: #5EAA2F;
+  color: #5EAA2F;
+  opacity: 60%;
+}
+
+.slider__button:active::before,
+.slider__button:active::after {
+  background-color: #5EAA2F;
+  opacity: 60%;
+}
+
+@media (min-width: $tablet-width) {
+  .slider {
+    width: 560px;
+  }
+  .slider__img {
+    width: 560px;
+    height: 512px;
+  }
+  .slider__wrapper {
+    height: 512px;
+    z-index: 1;
+  }
+  .slider__before {
+    background-image: linear-gradient(#ffffff 30%, $background-color 30% 80%);
+    height: 512px;
+  }
+  .slider__button {
+    top: 43%;
+    left: 46.5%;
+  }
+  .slider__button::before {
+    height: 260px;
+    top: -260px;
+  }
+  .slider__button::after {
+    height: 260px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .slider {
+    margin: 0;
+  }
+  .slider__before {
+    background-image: linear-gradient(#ffffff 30.5%, $background-color 30.5% 80%);
+  }
+}

@@ -1,0 +1,131 @@
+.options {
+  width: 280px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.options__wrapper {
+  padding: 30px 20px 18px 20px;
+  background-color: $background-color;
+  background-repeat: no-repeat;
+}
+
+.options__wrapper--slim {
+  background-image: url("../img/options-slim.svg");
+  background-position: top 21px left 20px;
+}
+
+.options__wrapper--pro {
+  background-image: url("../img/options-pro.svg");
+  background-size: 67px 50px;
+  background-position: top 24px left 13px;
+}
+
+.options__title {
+  font-family: $additional-font-family;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+  padding: 0;
+  padding-left: 60px;
+  margin: 0;
+  margin-bottom: 29px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.options__description {
+  color: $text-color;
+  padding: 0;
+  padding-bottom: 23px;
+  margin: 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.options__link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-family: $additional-font-family;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  width: 139px;
+  background-image: url("../img/icons/arrow.png");
+  background-repeat: no-repeat;
+  background-position: center right 9px;
+}
+
+.options__link:hover {
+  opacity: 60%;
+}
+
+.options__link:active {
+  opacity: 30%;
+}
+
+@media (min-width: $tablet-width) {
+  .options {
+    width: 708px;
+    margin-bottom: 45px;
+    gap: 30px;
+  }
+  .options__wrapper {
+    padding: 77px 316px 53px 52px;
+  }
+  .options__wrapper--slim {
+    background-size: 200px 212px;
+    background-position: top 81px right 63px;
+  }
+  .options__wrapper--pro {
+    background-size: 268px 200px;
+    background-position: top 91px right 29px;
+  }
+  .options__title {
+    text-align: left;
+    font-size: 36px;
+    line-height: 36px;
+    padding: 0;
+  }
+  .options__description {
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+  }
+  .options__link {
+    font-size: 20px;
+    line-height: 20px;
+    width: 165px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .options {
+    width: 1220px;
+    gap: 80px;
+    flex-direction: row;
+    margin-bottom: 71px;
+  }
+  .options__wrapper {
+    box-sizing: border-box;
+    padding: 77px 61px 55px 52px;
+    min-width: 570px;
+  }
+  .options__wrapper--slim {
+    background-size: 100px 106px;
+    background-position: top 41px left 52px;
+  }
+  .options__wrapper--pro {
+    background-size: 134px 100px;
+    background-position: top 47px left 33px;
+  }
+  .options__title {
+    text-align: center;
+    margin-bottom: 73px;
+    padding-left: 102px;
+  }
+}

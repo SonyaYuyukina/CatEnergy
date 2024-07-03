@@ -1,0 +1,17 @@
+.questionary__title {
+  font-family: $additional-font-family;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.questionary__description {
+  font-family: $additional-font-family;
+  text-transform: uppercase;
+}
+
+.questionary__required {
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+}

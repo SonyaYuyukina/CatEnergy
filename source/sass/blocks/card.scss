@@ -1,0 +1,15 @@
+.card__link,
+.card__name {
+  color: $text-color-additional;
+  font-family: $additional-font-family;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.card__description {
+  color: $text-color;
+  font-size: 12px;
+  line-height: 16px;
+}

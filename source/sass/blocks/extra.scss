@@ -1,0 +1,19 @@
+.extra__link {
+  color: $text-color-additional;
+  font-family: $additional-font-family;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.extra__title {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.extra__amount,
+.extra__price {
+  color: $text-color;
+  font-size: 14px;
+  line-height: 14px;
+}

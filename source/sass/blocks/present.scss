@@ -1,0 +1,13 @@
+.present {
+  background-color: $accent-color;
+  background-image: linear-gradient(to right, rgba(104, 183, 56, 0.85) 50%, rgba(104, 183, 56, 0.85) 50%), url("../../img/present-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.present__description {
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+}

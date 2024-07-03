@@ -1,0 +1,68 @@
+.stats {
+  width: 124px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 15px;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+
+}
+
+.stats::before {
+  content: '';
+  width: 124px;
+  height: 56px;
+  border: 1px solid #CDCDCD;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+}
+
+.stats__value {
+  font-family: $additional-font-family;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.stats__name {
+  max-width: 77px;
+  margin: 0;
+  padding: 0 5px 0;
+  color: $text-color;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  background-color: $background-color;
+  z-index: 3;
+}
+
+@media (min-width: $tablet-width) {
+  .stats {
+    width: 162px;
+    gap: 11px;
+    margin: 0;
+  }
+  .stats::before {
+    width: 162px;
+    height: 72px;
+  }
+  .stats__value {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .stats__name {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 14px;
+    background-color: #ffffff;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .stats__name {
+    background-color: $background-color;
+  }
+}
