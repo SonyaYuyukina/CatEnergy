@@ -14,7 +14,7 @@ export const styles = () => {
     .pipe(postcss([
       autoprefixer()
     ]))
-    .pipe(gulp.dest('source/css', { sourcemaps: '.' }))
+    .pipe(gulp.dest('docs/css', { sourcemaps: '.' }))
     .pipe(browser.stream());
 }
 
@@ -23,7 +23,7 @@ export const styles = () => {
 const server = (done) => {
   browser.init({
     server: {
-      baseDir: 'source'
+      baseDir: 'docs'
     },
     cors: true,
     notify: false,
