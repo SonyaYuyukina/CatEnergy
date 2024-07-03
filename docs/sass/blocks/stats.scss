@@ -7,14 +7,13 @@
   align-items: center;
   position: relative;
   margin-bottom: 20px;
-
 }
 
 .stats::before {
-  content: '';
+  content: "";
   width: 124px;
   height: 56px;
-  border: 1px solid #CDCDCD;
+  border: 1px solid #cdcdcd;
   border-radius: 3px;
   position: absolute;
   top: 0;
@@ -45,14 +44,17 @@
     gap: 11px;
     margin: 0;
   }
+
   .stats::before {
     width: 162px;
     height: 72px;
   }
+
   .stats__value {
     font-size: 30px;
     line-height: 37px;
   }
+
   .stats__name {
     max-width: 100%;
     font-size: 14px;

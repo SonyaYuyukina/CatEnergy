@@ -20,11 +20,12 @@
     align-items: end;
     gap: 9px;
   }
+
   .cost__name,
   .cost__value {
-  font-size: 20px;
-  line-height: 20px;
-}
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 @media (min-width: $desktop-width) {

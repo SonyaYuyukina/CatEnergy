@@ -43,11 +43,11 @@
 }
 
 .main-header__toggle--closed {
-  background-image: url('../img/logos/menu-open.svg');
+  background-image: url("../img/logos/menu-open.svg");
 }
 
 .main-header__toggle--opened {
-  background-image: url('../img/logos/menu-closed.svg');
+  background-image: url("../img/logos/menu-closed.svg");
 }
 
 
@@ -65,9 +65,11 @@
   .main-header__logo {
     min-width: 174px;
   }
+
   .main-header__toggle {
     display: none;
   }
+
   .main-header__logo-image {
     width: 70px;
     height: 59px;
@@ -85,6 +87,7 @@
   .main-header__logo {
     min-width: 202px;
   }
+
   .main-header__toggle {
     display: none;
   }

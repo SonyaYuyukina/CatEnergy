@@ -65,31 +65,37 @@
     margin-bottom: 0;
     padding-left: 120px;
   }
+
   .hero__wrapper {
     height: 100%;
     width: 709px;
     background-image: none;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     align-items: start;
   }
+
   .hero__title {
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 40px;
   }
+
   .hero__text-wrapper {
     width: 420px;
     padding: 0;
     padding-top: 65px;
     margin-bottom: 50px;
   }
+
   .hero__slogan {
     font-size: 20px;
     line-height: 20px;
   }
+
   .hero__button {
     order: 0;
   }
+
   .hero__img {
     margin: 0;
     width: 709px;
@@ -107,17 +113,20 @@
     height: 580px;
     margin-bottom: 82px;
   }
+
   .hero__wrapper {
     box-sizing: border-box;
     width: 1440px;
     padding-left: 190px;
   }
+
   .hero__img {
     width: 552px;
     height: 499px;
     left: 557px;
     bottom: 52px;
   }
+
   .hero::before {
     content: "";
     width: 50%;
@@ -132,6 +141,7 @@
     background-position: center;
     background-size: cover;
   }
+
   @media (min-resolution: 2dppx) {
     .hero::before {
       background-image: linear-gradient(to right, rgba(104, 183, 56, 0.85) 50%, rgba(104, 183, 56, 0.85) 50%), url("../img/hero-background-desktop@2x.jpg");

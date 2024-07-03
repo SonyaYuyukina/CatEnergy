@@ -74,28 +74,34 @@
     margin-bottom: 45px;
     gap: 30px;
   }
+
   .options__wrapper {
     padding: 77px 316px 53px 52px;
   }
+
   .options__wrapper--slim {
     background-size: 200px 212px;
     background-position: top 81px right 63px;
   }
+
   .options__wrapper--pro {
     background-size: 268px 200px;
     background-position: top 91px right 29px;
   }
+
   .options__title {
     text-align: left;
     font-size: 36px;
     line-height: 36px;
     padding: 0;
   }
+
   .options__description {
     font-size: 16px;
     line-height: 24px;
     border: none;
   }
+
   .options__link {
     font-size: 20px;
     line-height: 20px;
@@ -110,19 +116,23 @@
     flex-direction: row;
     margin-bottom: 71px;
   }
+
   .options__wrapper {
     box-sizing: border-box;
     padding: 77px 61px 55px 52px;
     min-width: 570px;
   }
+
   .options__wrapper--slim {
     background-size: 100px 106px;
     background-position: top 41px left 52px;
   }
+
   .options__wrapper--pro {
     background-size: 134px 100px;
     background-position: top 47px left 33px;
   }
+
   .options__title {
     text-align: center;
     margin-bottom: 73px;

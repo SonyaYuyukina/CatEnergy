@@ -20,8 +20,8 @@
 .site-list__item {
   background-color: #ffffff;
   text-align: center;
-  border-top: 1px solid #E6E6E6;
-  border-bottom: 1px solid #E6E6E6;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .site-list__link {
@@ -49,19 +49,23 @@
     position: relative;
     top: 0;
   }
+
   .site-list--closed {
     display: flex;
   }
+
   .site-list__item {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     padding: 0;
     border: none;
   }
+
   .site-list__link {
     padding: 10px 0;
   }
+
   .site-list__item--active {
-    border-bottom: 2px solid #68B738;
+    border-bottom: 2px solid #68b738;
   }
 }
 
@@ -71,9 +75,11 @@
     display: flex;
     justify-content: space-between;
   }
+
   .site-list__link {
     color: #ffffff;
   }
+
   .site-list__item--active {
     border-color: #ffffff;
   }
